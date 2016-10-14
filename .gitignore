@@ -1,7 +1,8 @@
-
+#Ignorar los archivos ocultos de MAC
 *.DS_Store
 
+#Ignorar los archivos que almacenan los errores
 *.log
 
-cache/smarty/*/*.php
-/cache/*
+#Ignorar los archivos de cache
+cache/
