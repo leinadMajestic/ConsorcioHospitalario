@@ -1,2 +1,6 @@
 
-cache/smarty/*
+*.DS_Store
+
+*.log
+
+cache/smarty/*/*.php
