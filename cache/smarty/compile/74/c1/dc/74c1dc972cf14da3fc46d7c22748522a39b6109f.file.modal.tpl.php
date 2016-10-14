@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:27:21
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:46:25
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/administrador/themes/default/template/modal.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5908774935800f959727c54-87397700%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18777958325800fdd1689cf7-90561014%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5908774935800f959727c54-87397700',
+  'nocache_hash' => '18777958325800fdd1689cf7-90561014',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5800f9597d0057_60470697',
+  'unifunc' => 'content_5800fdd171b632_16542496',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5800f9597d0057_60470697')) {function content_5800f9597d0057_60470697($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5800fdd171b632_16542496')) {function content_5800fdd171b632_16542496($_smarty_tpl) {?>
 <div class="modal fade" id="<?php echo $_smarty_tpl->tpl_vars['modal_id']->value;?>
 " tabindex="-1">
 	<div class="modal-dialog <?php if (isset($_smarty_tpl->tpl_vars['modal_class']->value)) {?><?php echo $_smarty_tpl->tpl_vars['modal_class']->value;?>
