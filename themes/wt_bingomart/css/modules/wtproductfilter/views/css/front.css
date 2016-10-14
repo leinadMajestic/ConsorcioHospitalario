@@ -1,0 +1,59 @@
+.wt-prod-filter {
+  margin-top: 50px; }
+.wt-prod-filter .block-content .block-title {
+    display: inline-block;
+    width: 100%; }
+.wt-prod-filter .block-content .block-title .icon-wt-bestseller-prod {
+      display: none; }
+.wt-prod-filter .block-content .block-title h3 {
+      margin: 0 0 15px 0;
+      display: inline-block;
+      color: #333;
+      font-size: 24px;
+      font-weight: 400; }
+.wt-prod-filter .tab-content{margin-top:20px;}
+#wt-prod-filter-tabs{  border-bottom: none;text-align:center;}
+#wt-prod-filter-tabs.nav > li{float:none;display:inline-block;}
+#wt-prod-filter-tabs.nav > li > a{padding: 12px 23px;font-size:20px;color:#666;line-height:1; text-transform: capitalize;font-family:'Roboto', sans-serif; line-height:1;font-weight:600;margin-right:0;}
+#wt-prod-filter-tabs.nav > li:last-child > a{border-right:none;}
+#wt-prod-filter-tabs.nav-tabs > li.active > a, #wt-prod-filter-tabs.nav-tabs > li > a:hover, #wt-prod-filter-tabs.nav-tabs > li > a:focus{color:#fff;background:#fe9d96;}
+.out-prod-filter {
+  border-top: 2px solid #26a69d;
+  background: #fff; }
+  .out-prod-filter .product_img_link {
+    margin-bottom: 20px; }
+.wt-prod-filter .ajax_block_product {
+  transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  position: relative;
+  
+ }
+.wt-prod-filter .ajax_block_product .comments_note {
+    display: inline-block; }
+
+.wt-prod-filter .ajax_block_product .wt-prod-filter-hover .button-container {
+    text-align: left; }
+
+.wt-prod-filter .product-container
+{
+	padding-bottom:35px;background:#fff;
+}
+
+/****prod-filter-topcolumn***/
+@media (min-width: 768px) and (max-width: 1199px) {
+.wt-prod-filter-topcolumn .block-content {
+    border: none; }
+.wt-prod-filter-topcolumn .block-content .product-container {
+      width: 50%;
+      float: left;
+      border: 1px solid #d6d6d6; }
+.wt-prod-filter-topcolumn .block-content .product-container:first-child {
+        border: 1px solid #d6d6d6; } 
+}
+@media (max-width: 767px)
+{
+.wt-prod-filter .ajax_block_product{padding-right:0;border-right:none;}
+.wt-prod-filter{margin-top:30px;}
+}
+

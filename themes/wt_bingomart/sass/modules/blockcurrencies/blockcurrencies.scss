@@ -1,0 +1,72 @@
+@import "compass";
+@import "theme_variables";
+#currencies-block-top {
+	float: right;
+	position: relative;margin-right:18px;margin-top:7px;margin-right:30px;
+	@media (max-width: $screen-xs-max)
+	{
+	 display:inline-block;
+	 float:none;
+	
+	}
+	
+	span.firstWord {
+		display: none;
+	}
+	div.current {
+		
+		 color:$light-text-color;
+		font-size:12px;font-family:$font-custom;text-transform:uppercase;
+		cursor: pointer;
+		line-height:22px;
+		
+		
+		strong {
+			font-weight:500; 
+		}
+		&:hover, &.active {
+			color:$light-text-color;
+		}
+		&:after {
+			content: "\f107";
+			font-family: $font-icon;
+			font-size: 12px;
+			line-height: 12px;
+			
+			padding-left: 8px;
+			
+		}
+		.cur-label {
+			
+		}
+	}
+	ul {
+		display: none;
+		position: absolute;
+		top: 39px;
+		left: 0;
+		width: 130px;
+		background: $light-background;
+		z-index: 2;
+		border:1px solid #c3c3c3;
+		li {
+			color: $light-text-color;
+			line-height: 35px;
+		
+			a,
+			> span {
+				padding: 0 10px 0 12px;
+				display: block;
+				color: $base-body-color;
+			}
+			&.selected, &:hover a {
+				background: $bg-hover-button;
+				color: $light-text-color;
+			}
+			&.selected a 
+			{
+			color:$light-text-color;
+			}
+		}
+	}
+}

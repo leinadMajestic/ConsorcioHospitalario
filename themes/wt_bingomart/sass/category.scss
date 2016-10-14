@@ -1,0 +1,114 @@
+@import "compass";
+@import "theme_variables";
+
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+	
+	color:$description-color;
+	margin: 0 0 26px 0;
+	
+	
+	.cat_desc
+	{
+	 border:$main_border;
+	 padding:30px;
+	 background:$light-background;
+	}
+	span.category-name {
+		font: 500 26px/30px $font-family;
+		color:$base-text-color;
+		margin-bottom: 15px;
+		display:inline-block;
+		
+	}
+	p {
+		margin-bottom: 0;
+		color:$base-body-color;
+		line-height:25px;
+		margin-bottom:15px;
+		font-weight:500;
+	}
+	a {
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.content_scene {
+		color: $base-body-color;
+		.cat_desc {
+			padding-top: 20px;
+			a {
+				color: $link-color;
+				&:hover {
+					color: $link-hover-color;
+				}
+			}
+		}
+	}
+}
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+
+#subcategories {
+	margin-bottom:20px;
+	p.subcategory-heading {
+		color:$base-text-color;
+		text-transform:uppercase;
+		font-size:14px;
+		margin: 0 0 15px 0;
+		font-weight:600;
+	}
+	.out_sub
+	{
+	@media (max-width: $screen-xs-max )
+    {
+		display:inline-block;
+	}
+	}
+	ul {
+		margin: 0 0 0 -15px;
+		li {
+			float: left;
+			width: 145px;
+			padding:0 15px;
+			text-align: center;
+			/* height: 202px; */
+			.subcategory-image {
+				padding: 0 0 8px 0;
+				a {
+					display: block;
+					
+					img {
+						max-width: 100%;
+						vertical-align: top;
+						margin:0 auto;
+					}
+				}
+			}
+			
+			.subcategory-name {
+				font: 600 14px/16px $font-family;
+				color: $base-heading-color;
+				text-align:left;
+				&:hover {
+					color: $link-hover-color;
+				}
+			}
+			
+			.cat_desc {
+				display: none;
+			}
+			
+		}
+	}
+}
+/**bx-slider***/
+#subcategories
+{
+div.bx-wrapper .bx-controls-direction{margin-top:-34px;}
+}

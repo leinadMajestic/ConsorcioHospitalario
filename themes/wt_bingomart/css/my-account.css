@@ -1,0 +1,52 @@
+#my-account .addresses-lists {
+  margin-bottom: 30px; }
+#my-account ul.myaccount-link-list li {
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  position: relative; }
+  #my-account ul.myaccount-link-list li a {
+    display: table;
+    overflow: hidden;
+    font: 600 16px Roboto, Helvetica, sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none; }
+    #my-account ul.myaccount-link-list li a i {
+      font-size: 22px;
+      text-align: center;
+      float: left;
+      margin-right: 20px;
+      width: 82px;
+      height: 82px;
+      -moz-border-radius: 100%;
+      -webkit-border-radius: 100%;
+      border-radius: 100%;
+      border: 2px solid #333;
+      line-height: 80px; }
+    #my-account ul.myaccount-link-list li a span {
+      overflow: hidden;
+      display: table-cell;
+      vertical-align: middle;
+      margin-top: 2px; }
+  #my-account ul.myaccount-link-list li:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+    height: 12px; }
+  #my-account ul.myaccount-link-list li:hover {
+    filter: none; }
+    #my-account ul.myaccount-link-list li:hover a {
+      color: #437a7d; }
+      #my-account ul.myaccount-link-list li:hover a i {
+        border-color: #437a7d; }
+
+#my-account ul.myaccount-link-list li.lnk_wishlist {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=my-account.css.map */

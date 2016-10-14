@@ -1,0 +1,24 @@
+@import '../../_theme_variables';
+.tags_block {
+
+	.block_content {
+		overflow:hidden;
+
+		a {
+			display:inline-block;
+			font-size:11px;font-family:$font-custom;
+			text-transform:capitalize;
+			padding:10px 20px;
+			border:$main_border;
+			float:left;
+			line-height:13px;text-transform:uppercase;
+            color:$base-body-color;margin-right:2px; margin-bottom:2px;
+			&:hover {
+				background:$bg-hover-button;color:$light-text-color;
+				border-color:$border-button-hover;
+			
+				
+			}
+		}
+	}
+}

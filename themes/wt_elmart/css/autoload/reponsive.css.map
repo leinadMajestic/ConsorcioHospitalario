@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,0BACA;EACC,iBAAiB;IAAC,KAAK,EAAC,KAAK;;EAC7B,oBAAoB;IAAC,KAAK,EAAC,KAAK;;EAChC,eAAe;IAAC,KAAK,EAAC,KAAK",
+"sources": ["../../sass/autoload/reponsive.scss"],
+"names": [],
+"file": "reponsive.css"
+}

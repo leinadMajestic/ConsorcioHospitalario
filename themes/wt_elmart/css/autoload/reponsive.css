@@ -1,0 +1,15 @@
+@media (min-width: 1200px) {
+  #wt-menu-ver-left {
+    width: 287px; }
+
+  .wt-top-column-block {
+    width: 288px; }
+
+  #slider-wrapper {
+  	width: 75%;
+  	height:450px;
+  	overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=reponsive.css.map */

@@ -1,0 +1,71 @@
+@import "compass";
+@import "theme_variables";
+.myaccount-link-list
+{
+
+}
+#my-account {
+	.addresses-lists {
+		margin-bottom: 30px;
+	}
+	ul.myaccount-link-list {
+		li {
+			overflow: hidden;
+			margin-bottom:20px;
+			background:transparent;
+			-webkit-transition: all 0.3s ease;
+					  transition: all 0.3s ease;
+					  -moz-transition: all 0.3s ease;position:relative;
+			a {
+				display: table;
+				overflow: hidden;
+				font: 600 16px $font-family;
+				color: $base-text-color;
+				text-transform: uppercase;
+				text-decoration: none;
+				
+				
+				i {
+					font-size: 22px;
+					text-align: center;
+					float:left;margin-right: 20px;
+					width:82px;height:82px;@include border-radius(100%);border:2px solid $border-button-hover;
+					line-height:80px;
+					
+				}
+				span {
+				
+					overflow: hidden;
+					display: table-cell;
+					vertical-align:middle;
+					margin-top:2px;
+					
+				}
+				
+			}
+			&:after
+			{
+			   content: "";
+			  position: absolute;
+			  right: 0;
+			  top: 0;
+			  width: 12px;
+			  height: 12px;
+			 
+			}
+			&:hover {
+					filter: none;
+					a 
+					{
+						color:$link-hover-color;
+						i{border-color:$border-button;}
+					}
+					
+				}
+		}
+	}
+}
+#my-account ul.myaccount-link-list li.lnk_wishlist
+{
+margin-bottom:0;
+}

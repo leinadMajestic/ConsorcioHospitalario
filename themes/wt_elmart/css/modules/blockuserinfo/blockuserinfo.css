@@ -1,0 +1,28 @@
+.header_user_info {
+  float: left; }
+  .header_user_info a {
+    color: #999;
+    display: block;
+    margin-right: 20px;
+    cursor: pointer;
+    line-height: 22px;
+    float: left;
+    font-size: 12px;
+    font-family: "Coda", cursive; }
+    .header_user_info a:hover, .header_user_info a.active {
+      color: #fff; }
+  .header_user_info i {
+    margin-right: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 500; }
+  @media (max-width: 767px) {
+    .header_user_info {
+      float: none;
+      display: inline-block; }
+      .header_user_info a {
+        display: inline-block;
+        float: none; } }
+
+/*# sourceMappingURL=blockuserinfo.css.map */

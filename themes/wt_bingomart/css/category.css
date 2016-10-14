@@ -1,0 +1,76 @@
+/* ************************************************************************************************
+								Categories Page Styles
+************************************************************************************************ */
+.content_scene_cat {
+  color: #666;
+  margin: 0 0 26px 0; }
+  .content_scene_cat .cat_desc {
+    border: 1px solid #d6d6d6;
+    padding: 30px;
+    background: #fff; }
+  .content_scene_cat span.category-name {
+    font: 500 26px/30px Roboto, Helvetica, sans-serif;
+    color: #333;
+    margin-bottom: 15px;
+    display: inline-block; }
+  .content_scene_cat p {
+    margin-bottom: 0;
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-weight: 500; }
+  .content_scene_cat a:hover {
+    text-decoration: underline; }
+  .content_scene_cat .content_scene {
+    color: #666; }
+    .content_scene_cat .content_scene .cat_desc {
+      padding-top: 20px; }
+      .content_scene_cat .content_scene .cat_desc a {
+        color: #333; }
+        .content_scene_cat .content_scene .cat_desc a:hover {
+          color: #437a7d; }
+
+/* ************************************************************************************************
+									Sub Categories Styles
+************************************************************************************************ */
+#subcategories {
+  margin-bottom: 20px; }
+  #subcategories p.subcategory-heading {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    font-weight: 600; }
+  @media (max-width: 767px) {
+    #subcategories .out_sub {
+      display: inline-block; } }
+  #subcategories ul {
+    margin: 0 0 0 -15px; }
+    #subcategories ul li {
+      float: left;
+      width: 145px;
+      padding: 0 15px;
+      text-align: center;
+      /* height: 202px; */ }
+      #subcategories ul li .subcategory-image {
+        padding: 0 0 8px 0; }
+        #subcategories ul li .subcategory-image a {
+          display: block; }
+          #subcategories ul li .subcategory-image a img {
+            max-width: 100%;
+            vertical-align: top;
+            margin: 0 auto; }
+      #subcategories ul li .subcategory-name {
+        font: 600 14px/16px Roboto, Helvetica, sans-serif;
+        color: #333;
+        text-align: left; }
+        #subcategories ul li .subcategory-name:hover {
+          color: #437a7d; }
+      #subcategories ul li .cat_desc {
+        display: none; }
+
+/**bx-slider***/
+#subcategories div.bx-wrapper .bx-controls-direction {
+  margin-top: -34px; }
+
+/*# sourceMappingURL=category.css.map */
