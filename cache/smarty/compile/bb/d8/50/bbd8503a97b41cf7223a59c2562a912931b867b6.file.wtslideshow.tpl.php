@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:27:21
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:51:10
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/modules/wtslideshow/views/templates/hook/wtslideshow.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2169134235800f95950b5c1-67888817%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14610873015800feee8c7df3-47003789%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2169134235800f95950b5c1-67888817',
+  'nocache_hash' => '14610873015800feee8c7df3-47003789',
   'function' => 
   array (
   ),
@@ -30,9 +30,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5800f959d7cbc9_77151801',
+  'unifunc' => 'content_5800feef281377_61039709',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5800f959d7cbc9_77151801')) {function content_5800f959d7cbc9_77151801($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5800feef281377_61039709')) {function content_5800feef281377_61039709($_smarty_tpl) {?>
 
 <!-- Module HomeSlider -->
 <?php $_smarty_tpl->tpl_vars['id_lang'] = new Smarty_variable(Context::getContext()->language->id, null, 0);?>
