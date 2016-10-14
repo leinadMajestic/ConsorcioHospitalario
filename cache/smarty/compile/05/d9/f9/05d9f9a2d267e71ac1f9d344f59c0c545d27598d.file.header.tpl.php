@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:51:08
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:59:59
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/themes/wt_elmart/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17432284475800feecb6e4b2-83146592%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1865985338580100ff9b8c88-66945048%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17432284475800feecb6e4b2-83146592',
+  'nocache_hash' => '1865985338580100ff9b8c88-66945048',
   'function' => 
   array (
   ),
@@ -56,9 +56,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5800feeced23d0_57197677',
+  'unifunc' => 'content_580100ffc69768_07359382',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5800feeced23d0_57197677')) {function content_5800feeced23d0_57197677($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/websites/consorcioHospitalario/tools/smarty/plugins/function.implode.php';
+<?php if ($_valid && !is_callable('content_580100ffc69768_07359382')) {function content_580100ffc69768_07359382($_smarty_tpl) {?><?php if (!is_callable('smarty_function_implode')) include '/Applications/MAMP/websites/consorcioHospitalario/tools/smarty/plugins/function.implode.php';
 ?>
 <!DOCTYPE HTML>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"<?php if (isset($_smarty_tpl->tpl_vars['language_code']->value)&&$_smarty_tpl->tpl_vars['language_code']->value) {?> lang="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['language_code']->value, ENT_QUOTES, 'UTF-8', true);?>

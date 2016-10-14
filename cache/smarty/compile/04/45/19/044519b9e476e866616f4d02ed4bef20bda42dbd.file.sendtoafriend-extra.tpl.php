@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-13 17:24:36
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:59:51
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/themes/wt_elmart/modules/sendtoafriend/sendtoafriend-extra.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:280503337580009a44a4538-19926608%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2124223170580100f7e16049-56450743%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '280503337580009a44a4538-19926608',
+  'nocache_hash' => '2124223170580100f7e16049-56450743',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_580009a45c6744_06003818',
+  'unifunc' => 'content_580100f7ea3727_35468992',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_580009a45c6744_06003818')) {function content_580009a45c6744_06003818($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_580100f7ea3727_35468992')) {function content_580100f7ea3727_35468992($_smarty_tpl) {?>
 <li class="sendtofriend">
 	<a id="send_friend_button" href="#send_friend_form" title="<?php echo smartyTranslate(array('s'=>'Send To A Friend'),$_smarty_tpl);?>
 ">

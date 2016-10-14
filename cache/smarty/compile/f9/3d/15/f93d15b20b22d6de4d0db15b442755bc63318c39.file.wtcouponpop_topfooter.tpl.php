@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:51:11
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 11:00:01
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/modules/wtcouponpop/views/templates/hook/wtcouponpop_topfooter.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:14471969455800feef3f1b21-85148258%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:205024553758010101371e43-80256424%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '14471969455800feef3f1b21-85148258',
+  'nocache_hash' => '205024553758010101371e43-80256424',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5800feef4ee531_30728479',
+  'unifunc' => 'content_58010101431e43_66986743',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5800feef4ee531_30728479')) {function content_5800feef4ee531_30728479($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58010101431e43_66986743')) {function content_58010101431e43_66986743($_smarty_tpl) {?>
 <!-- Block Newsletter module-->
 <div id="newsletter_block_left" class="block col-xs-12 clearfix">
 	<div class="wt-out-letter">

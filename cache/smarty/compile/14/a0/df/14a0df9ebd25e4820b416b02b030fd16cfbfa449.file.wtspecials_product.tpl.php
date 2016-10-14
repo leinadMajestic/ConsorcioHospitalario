@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-13 17:24:38
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 10:59:54
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/modules/wtspecials/views/templates/hook/wtspecials_product.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:190401282580009a6528973-01514061%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1449633079580100fa1fd139-42719003%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '190401282580009a6528973-01514061',
+  'nocache_hash' => '1449633079580100fa1fd139-42719003',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_580009a6750f34_66300762',
+  'unifunc' => 'content_580100fa4ae999_71905668',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_580009a6750f34_66300762')) {function content_580009a6750f34_66300762($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_580100fa4ae999_71905668')) {function content_580100fa4ae999_71905668($_smarty_tpl) {?>
 <?php $_smarty_tpl->tpl_vars['number_line'] = new Smarty_variable(1, null, 0);?>
 <div id="wt-special-products" class="wt-special-products">
 	<div class="block-title deal-title">
