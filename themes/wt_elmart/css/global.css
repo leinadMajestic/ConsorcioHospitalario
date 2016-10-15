@@ -7941,7 +7941,7 @@ div.star.star_hover:after {
   display: none !important; }
 
 .footer-section {
-  background: #2342b4;
+  background: #3c9d9a;
   margin-top: 10px; }
 
 .form-group.form-error input, .form-group.form-error textarea {
@@ -8166,7 +8166,7 @@ div.star.star_hover:after {
 
 .mod_head {
   padding: 9px 0;
-  background: #101010;
+  background: #ffce31;
   position: relative;
   z-index: 2; }
   .mod_head > .container {

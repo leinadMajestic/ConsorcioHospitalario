@@ -8,8 +8,6 @@
 cache/
 cache/smarty/compile/04/45/19/044519b9e476e866616f4d02ed4bef20bda42dbd.file.sendtoafriend-extra.tpl.php
 
-cache/smarty/compile/04/45/19/044519b9e476e866616f4d02ed4bef20bda42dbd.file.sendtoafriend-extra.tpl.php
-
 cache/smarty/compile/05/d9/f9/05d9f9a2d267e71ac1f9d344f59c0c545d27598d.file.header.tpl.php
 
 cache/smarty/compile/0a/00/3a/0a003a60d19320128278c7c8c3f6135edbe71c24.file.columnleft.tpl.php
@@ -153,3 +151,39 @@ cache/smarty/compile/b4/e2/89/b4e289c3565ddfe1f2dfaac1146967c10a03e582.file.nav.
 cache/smarty/compile/bb/95/33/bb9533e7e50379185fac8c034a26c892bd83903a.file.layout.tpl.php
 
 cache/smarty/compile/df/a6/d7/dfa6d7e4f5f1cc065d145e356b2e0b27450b5ee1.file.notification_bt.tpl.php
+
+cache/smarty/compile/05/9d/8f/059d8feb6d417731abd3fa1c3e3a4661326ec580.file.content.tpl.php
+
+cache/smarty/compile/21/b2/f3/21b2f3e71ba62540d79815673c9de3e66ec08ed1.file.list_footer.tpl.php
+
+cache/smarty/compile/25/03/22/250322139d1a24302383edefb08d14d22edd2732.file.simple.tpl.php
+
+cache/smarty/compile/2f/eb/58/2feb58e5969d787a877c350397b018e586049c77.file.list_action_edit.tpl.php
+
+cache/smarty/compile/45/9f/c4/459fc4415dd6d7bf76c9fe200e4c38b6780635f5.file.list_action_delete.tpl.php
+
+cache/smarty/compile/4e/3d/ad/4e3dad2c27f2db9df5ef8b6f9030d839f83ffdc9.file.list_action_enable.tpl.php
+
+cache/smarty/compile/96/e3/2d/96e32dd94a7b203eae0e0f6183438256008621db.file.configure.tpl.php
+
+cache/smarty/compile/97/23/00/97230075e88e453a5bc1a3ebdac33a07120cc2ae.file.list.tpl.php
+
+cache/smarty/compile/9a/93/f8/9a93f8e8dea2b9d8459992ba0fe50359667dc069.file.list_content.tpl.php
+
+cache/smarty/compile/a3/0d/76/a30d765c94eb79a000f0d5672415e5f5c763f1a0.file.options.tpl.php
+
+cache/smarty/compile/c3/43/87/c3438793f727b9f7b25625623a817fea6c465b0e.file.setting_theme.tpl.php
+
+cache/smarty/compile/ca/d2/02/cad202973510e9a0a165d17b211093f7d593098b.file.page_header_toolbar.tpl.php
+
+cache/smarty/compile/f7/a5/1c/f7a51c5926030c497dd54bf59a3eb49be982767c.file.list_header.tpl.php
+
+cache/smarty/compile/fa/6b/74/fa6b74697821a14e733ee1524d4eb13d711303bb.file.configuration_bar.tpl.php
+
+cache/smarty/compile/00/1b/54/001b5471843f65f8f3b690c855743c3593e89db6.file.list.tpl.php
+
+cache/smarty/compile/00/50/40/0050401d1ea6f6793b932f1576634706e1639259.file.menu_item.tpl.php
+
+cache/smarty/compile/00/bc/04/00bc04a1ef4373dcd03a7231c32389c015e5a1d1.file.features.tpl.php
+
+cache/smarty/compile/05/9d/8f/059d8feb6d417731abd3fa1c3e3a4661326ec580.file.content.tpl.php
