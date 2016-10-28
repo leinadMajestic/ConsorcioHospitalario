@@ -26,14 +26,18 @@
 <!-- Block categories module -->
 <div id="categories_block_left" class="block">
 	<h2 class="title_block">
-		{if isset($currentCategory)}
-			{$currentCategory->name|escape}
-		{else}
-			{l s='Categories' mod='blockcategories'}
-		{/if}
+		{l s='Categories' mod='blockcategories'}
+		{*Se deshabilita para mostrar todas las categorias
+			{if isset($currentCategory)}
+				{$currentCategory->name|escape}
+			{else}
+				{l s='Categories' mod='blockcategories'}
+			{/if}
+		*}
 	</h2>
+
 	<div class="block_content">
-		<ul class="tree {if $isDhtml}dhtml{/if}">
+		<ul class="tree {*Usado para mostrar minimizadas las categorias*}{if $isDhtml}dhtml{/if}">
 			{foreach from=$blockCategTree.children item=child name=blockCategTree}
 				{if $smarty.foreach.blockCategTree.last}
 					{include file="$branche_tpl_path" node=$child last='true'}

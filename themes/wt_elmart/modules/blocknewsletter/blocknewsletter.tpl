@@ -37,7 +37,7 @@
 				<input class="inputNew form-control grey newsletter-input" id="newsletter-input" type="text" name="email" size="18" value="{if isset($msg) && $msg}{$msg}{elseif isset($value) && $value}{$value}{else}{l s='Enter your e-mail' mod='blocknewsletter'}{/if}" />
 			
                 <button type="submit" name="submitNewsletter" class="btn btn-default button button-small">
-                    <span>{l s='subcrible' mod='blocknewsletter'}</span>
+                    <span>{l s='Suscribirme' mod='blocknewsletter'}</span>
                 </button>
 				<input type="hidden" name="action" value="0" />
 			</div>

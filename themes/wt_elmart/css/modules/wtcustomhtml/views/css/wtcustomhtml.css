@@ -332,7 +332,18 @@
     transition-delay: 0.1s;
 }
 .Save-Off-Banner1{margin-top:11px;}
-.Save-Off-Banner .out-mask{position:absolute;left:0;bottom:20px;}
+.Save-Off-Banner .out-mask{
+  position:absolute;
+  right:0;
+  bottom:50px;
+  font-weight: bold;
+  line-height: 25px;
+  -webkit-text-shadow: 0px 1px 1px #000000;
+  -moz-text-shadow: 0px 1px 1px #000000;
+  text-shadow: 1px 1px 1px #000000;
+  color:#ffffff;
+  font-size:20pt;
+}
 .Save-Off-Banner .out-mask h3{font-size:16px;color:#fff;text-transform:capitalize;padding:10px 20px;background:rgba(187,46,222,0.85);margin:0;}
 .Save-Off-Banner .out-mask h4{font-size:12px;color:#333;text-transform:uppercase;padding:12px 20px;background:rgba(255,255,255,0.85);margin:0;display:inline-block;}
 .Save-Off-Banner1 .out-mask h3{background:rgba(236,117,32,0.85);}

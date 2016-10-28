@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 17:51:18
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-28 11:23:45
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/administrador/themes/default/template/helpers/form/form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:164583017158016166d254c8-64264530%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2509346058137b912e08d7-75533621%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '164583017158016166d254c8-64264530',
+  'nocache_hash' => '2509346058137b912e08d7-75533621',
   'function' => 
   array (
   ),
@@ -73,9 +73,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58016168775259_57619196',
+  'unifunc' => 'content_58137b93865677_93263026',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58016168775259_57619196')) {function content_58016168775259_57619196($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/Applications/MAMP/websites/consorcioHospitalario/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_58137b93865677_93263026')) {function content_58137b93865677_93263026($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/Applications/MAMP/websites/consorcioHospitalario/tools/smarty/plugins/function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -1161,8 +1161,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php $_smarty_tpl->tpl_vars['groups'] = new Smarty_variable($_smarty_tpl->tpl_vars['input']->value['values'], null, 0);?>
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '164583017158016166d254c8-64264530');
-content_580161681e1ae0_24637765($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '2509346058137b912e08d7-75533621');
+content_58137b92ddaf46_14781698($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -1539,9 +1539,9 @@ $_smarty_tpl->tpl_vars['language']->_loop = true;
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2016-10-14 17:51:20
+<?php /* Smarty version Smarty-3.1.19, created on 2016-10-28 11:23:46
          compiled from "/Applications/MAMP/websites/consorcioHospitalario/administrador/themes/default/template/helpers/form/form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_580161681e1ae0_24637765')) {function content_580161681e1ae0_24637765($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_58137b92ddaf46_14781698')) {function content_58137b92ddaf46_14781698($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

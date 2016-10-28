@@ -32,21 +32,25 @@
         <ul class="toggle-footer">
             {if $blockcontactinfos_phone != ''}
             	<li>
-            		<i class="icon-phone"></i>
-					<span class="line-contact">{l s='Call us:' mod='blockcontactinfos'}</span>
+					<span class="line-contact">{l s='Call us:' mod='blockcontactinfos'}</span><br />
             		<span>{$blockcontactinfos_phone|escape:'html':'UTF-8'}</span>
             	</li>
             {/if}
             {if $blockcontactinfos_email != ''}
             	<li>
-            		<i class="icon-envelope-alt"></i>
-					<span class="line-contact">{l s='Email:' mod='blockcontactinfos'}</span>
+					<span class="line-contact">{l s='Email:' mod='blockcontactinfos'}</span><br />
             		<span>{mailto address=$blockcontactinfos_email|escape:'html':'UTF-8' encode="hex"}</span>
             	</li>
             {/if}
-			 {if $blockcontactinfos_company != ''}
-            	<li>
-            		<i class="icon-map-marker"></i>{$blockcontactinfos_company|escape:'html':'UTF-8'}{if $blockcontactinfos_address != ''}, {$blockcontactinfos_address|escape:'html':'UTF-8'}{/if}
+			{if $blockcontactinfos_company != ''}
+            	<!--<li>
+                    <span class="line-contact">{l s='Empresa:' mod='blockcontactinfos'}</span><br />
+                    <span>{$blockcontactinfos_company|escape:'html':'UTF-8'}</span>
+                </li>-->
+                <li>
+                    <span class="line-contact"></span><br />
+                    <span>{$blockcontactinfos_address|escape:'html':'UTF-8'}</span>
+            		<!--<i class="icon-map-marker"></i>{$blockcontactinfos_company|escape:'html':'UTF-8'}{if $blockcontactinfos_address != ''}, {$blockcontactinfos_address|escape:'html':'UTF-8'}{/if}-->
             	</li>
             {/if}
         </ul>

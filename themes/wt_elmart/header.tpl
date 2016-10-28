@@ -57,7 +57,19 @@
 		{$HOOK_HEADER}
 		<link rel="stylesheet" href="http{if Tools::usingSecureMode()}s{/if}://fonts.googleapis.com/css?family=Open+Sans:300,600&amp;subset=latin,latin-ext" type="text/css" media="all" />
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500italic,500,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>		
+		{if $page_name == 'cms'}
+			<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,600,700' rel='stylesheet' type='text/css'>
+			<link rel="stylesheet" href="/consorcioHospitalario/themes/wt_elmart/css/cms/core.min.css" />
+			<link rel="stylesheet" href="/consorcioHospitalario/themes/wt_elmart/css/cms/skin-acerca.css" />
+			<!--<link rel="stylesheet" href="/consorcioHospitalario/themes/wt_elmart/css/cms/font-awesome.min.css">-->
+			<!--<link rel="stylesheet" href="/consorcioHospitalario/themes/wt_elmart/css/cms/animate.css">
+			<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>-->
+
+			<!--<link rel="stylesheet" href="/consorcioHospitalario/themes/wt_elmart/css/cms/bootstrap.min.css">-->
+			<!--<link rel="stylesheet" href="/consorcioHospitalario/themes/wt_elmart/css/cms/main.css">
+			<script src="/consorcioHospitalario/themes/wt_elmart/js/cms/modernizr-2.7.1.js"></script>-->
+  		{/if}
 	</head>
 	
 	<body{if isset($page_name)} id="{$page_name|escape:'html':'UTF-8'}"{/if} class="{if isset($page_name)}{$page_name|escape:'html':'UTF-8'}{/if}{if isset($body_classes) && $body_classes|@count} {implode value=$body_classes separator=' '}{/if}{if $hide_left_column} hide-left-column{/if}{if $hide_right_column} hide-right-column{/if}{if isset($content_only) && $content_only} content_only{/if} lang_{$lang_iso}{if $box_mode==1} box-mode{/if}">
@@ -122,12 +134,14 @@
 			</div>
 			{/if}
 			<div class="columns-container">
-				<div id="columns" class="container">
+				<div id="columns" class="container" {if $page_name == 'cms'} style="margin-top:-30px;padding:0px;"{/if}>
 					<div class="row">
-						{if isset($left_column_size) && !empty($left_column_size)}
+						
+						{if isset($left_column_size) && !empty($left_column_size) && $page_name != category && $page_name != cms}
 							{$col_sm = $left_column_size + 1}
 						<div id="left_column" class="column col-xs-12 col-sm-{$col_sm|intval} col-md-{$left_column_size|intval}">{$HOOK_LEFT_COLUMN}</div>
 						{/if}
+						
 						{if isset($left_column_size) && isset($right_column_size)}
 							{assign var='cols' value=(12 - $left_column_size - $right_column_size)}
 							{if ($left_column_size + $right_column_size) > 0}
@@ -140,9 +154,10 @@
 							{assign var='col_sm' value=12}
 						{/if}
 						
-						<div id="center_column" class="center_column col-xs-12 col-sm-{$col_sm|intval} col-md-{$cols|intval}">
+						<!--<div id="center_column" style="border:red solid 1px" class="center_column col-xs-12 col-sm-{$col_sm|intval} col-md-{$cols|intval}">-->
+						<div id="center_column" {if $page_name == 'cms'} style="padding: 0;"{else} class="center_column col-xs-12 col-sm-12"{/if}>
 						{if $page_name =='index' && $page_name !='pagenotfound'}
 							{hook h="displayTopHome"}
-						{/if}
+						{/if}						
 						
 	{/if}

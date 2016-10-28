@@ -13,4 +13,6 @@ $_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_ce8ae9da5b7cd6c3df2929
 $_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_c9cc8cce247e49bae79f15173ce97354'] = 'Guardar';
 $_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_02d4482d332e1aef3437cd61c9bcc624'] = 'Contacte con nosotros';
 $_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_2e006b735fbd916d8ab26978ae6714d4'] = 'Tel.:';
-$_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_6a1e265f92087bb6dd18194833fe946b'] = 'Email:';
+$_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_6a1e265f92087bb6dd18194833fe946b'] = 'Correo electrónico';
+$_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_4ce7066add42475a88da224bfd195923'] = 'Contáctanos';
+$_MODULE['<{blockcontactinfos}wt_elmart>blockcontactinfos_1300caaefd15b839f37952dc7cc75d82'] = 'Llámanos';

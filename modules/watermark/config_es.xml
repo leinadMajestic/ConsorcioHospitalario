@@ -2,7 +2,7 @@
 <module>
 	<name>watermark</name>
 	<displayName><![CDATA[Marca de agua]]></displayName>
-	<version><![CDATA[1.0.4]]></version>
+	<version><![CDATA[1.1.0]]></version>
 	<description><![CDATA[Proteja la imagen por una marca de agua.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[administration]]></tab>

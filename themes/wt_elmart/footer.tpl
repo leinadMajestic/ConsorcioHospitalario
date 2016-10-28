@@ -73,5 +73,15 @@
 		</div><!-- #page -->
 {/if}
 {include file="$tpl_dir./global.tpl"}
+		{if $page_name == 'cms'}
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<!--<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>-->
+			<script src="/consorcioHospitalario/themes/wt_elmart/js/cms/timber.master.min.js"></script>
+			<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		    <script>window.jQuery || document.write('<script src="/consorcioHospitalario/themes/wt_elmart/js/cms/jquery-1.11.0.min.js"><\/script>')</script>
+		    <script src="/consorcioHospitalario/themes/wt_elmart/js/cms/wow.min.js"></script>
+		    <script src="/consorcioHospitalario/themes/wt_elmart/js/cms/bootstrap.min.js"></script>
+		    <script src="/consorcioHospitalario/themes/wt_elmart/js/cms/main.js"></script>-->
+    	{/if}
 	</body>
 </html>

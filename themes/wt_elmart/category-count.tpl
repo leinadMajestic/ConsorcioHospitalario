@@ -26,7 +26,9 @@
 {strip}
 <span class="heading-counter">
 {if (isset($category) && $category->id == 1) OR (isset($nb_products) && $nb_products == 0)}
-	{l s='There are no products in this category.'}
+	{if ($page_name != category)}
+		{l s='There are no products in this category.'}
+	{/if}
 {else}
 	{if isset($nb_products) && $nb_products == 1}
 		{l s='There is 1 product.'}

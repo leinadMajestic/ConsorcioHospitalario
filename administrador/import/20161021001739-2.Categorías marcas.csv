@@ -1,0 +1,70 @@
+IdPropia;IdCatPadre;Nombre marca;Descripcion;Meta Titulo;Meta descripción;Meta palabras clave;Activo;NomCat Padre(ignorar);Imagen
+22;12;BD VACUTAINER;BECTON DICKINSON DE MEXICO (BD);;;;1;BD;http://localhost/consorcioHospitalario/img/recursos/Header-Bd.jpg
+23;12;BD MEDICAL;BD MEDICAL;;;;1;BD;http://localhost/consorcioHospitalario/img/recursos/Header-Bd.jpg
+24;13;FENWAL;FENWAL;;;;1;FENWAL;http://localhost/consorcioHospitalario/img/recursos/Header-Fresenius.png
+25;13;FRESENIUS;FRESENIUS;;;;1;FENWAL;http://localhost/consorcioHospitalario/img/recursos/Header-Fresenius.png
+26;14;MCD;MCD;;;;1;MCD LAB;http://localhost/consorcioHospitalario/img/recursos/Header-MCDLAB.png
+27;15;SENSIMEDICAL;SENSIMEDICAL;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+28;15;SUMITEX;SUMITEX;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+29;15;EB;EB;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+30;15;BIOFLUX;BIOFLUX;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+31;15;MRK;MRK;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+32;15;SKINPROT;SKINPROT;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+33;15;MEDICRIT;MEDICRIT;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+34;15;YELLOW PACK;YELLOW PACK;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+35;15;TERRAGENE;TERRAGENE;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+36;15;CHEMDYE;CHEMDYE;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+37;15;NK-ZYME;NK-ZYME;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+38;15;NK-CIDE;NK-CIDE;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+39;15;QUIRMEX;QUIRMEX;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+40;15;TECMED;TECMED;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+41;15;EXEM;EXEM;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+42;15;UNISEAL;UNISEAL;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+43;15;TRANSFUSET;TRANSFUSET;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+44;15;SOLUTEN;SOLUTEN;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+45;15;JAYOR;JAYOR;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+46;15;ULTRATEC;ULTRATEC;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+47;15;MEDITEST;MEDITEST;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+48;15;DISQUIM;DISQUIM;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+49;15;SELECTA;SELECTA;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+50;15;ALCOMEX;ALCOMEX;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+51;15;DIBAR;DIBAR;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+52;15;BIOSYNTEC;BIOSYNTEC;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+53;15;KE-NAL;KE-NAL;;;;1;SENSIMEDICAL;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+54;16;DELMED;DELMED;;;;1;INNOVARE;http://localhost/consorcioHospitalario/img/recursos/Header-innovare.png
+55;16;DELMED SIX;DELMED SIX;;;;1;INNOVARE;http://localhost/consorcioHospitalario/img/recursos/Header-innovare.png
+56;17;MATGLI;MATGLI;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+57;17;MATPOLSTER;MATPOLSTER;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+58;17;MATPILENO;MATPILENO;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+59;17;MATNY;MATNY;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+60;17;MATCAT;MATCAT;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+61;17;MATSED;MATSED;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+62;17;MATNONA;MATNONA;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+63;17;MATTOR;MATTOR;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+64;17;MATTUB;MATTUB;;;;1;MATCUR;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+65;18;HUDSON;HUDSON;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+66;18;FISHER & PAYKEL;FISHER & PAYKEL;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+67;18;TRACHOLD;TRACHOLD;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+68;18;LMA;LMA;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+69;18;AEROGEN;AEROGEN;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+70;18;RUSCH;RUSCH;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+71;18;NEOTECH;NEOTECH;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+72;18;UTAH MEDICAL;UTAH MEDICAL;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+73;18;JET MEDICAL;JET MEDICAL;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+74;18;UCIN;UCIN;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+75;18;BIOTEQ;BIOTEQ;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+76;18;ARGON;ARGON;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+77;18;CLARUS;CLARUS;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+78;18;STATLOCK;STATLOCK;;;;1;UCIN MEDICA;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+79;19;ALBY;ALBY;;;;1;ALBY;http://localhost/consorcioHospitalario/img/recursos/Header-Alby.png
+80;20;LAFON;LAFON;;;;1;LAFON;http://localhost/consorcioHospitalario/img/recursos/Headerlafon.png
+81;20;KIMA;KIMA;;;;1;LAFON;http://localhost/consorcioHospitalario/img/recursos/Headerlafon.png
+82;20;UNISEAL;UNISEAL;;;;1;LAFON;http://localhost/consorcioHospitalario/img/recursos/Headerlafon.png
+83;21;VENTSTAR;VENTSTAR;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+84;21;CLASSICSTAR;CLASSICSTAR;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+85;21;ERGOSTAR;ERGOSTAR;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+86;21;HUMIDSTAR;HUMIDSTAR;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+87;21;TWINSTAR;TWINSTAR;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+88;21;CARESTAR;CARESTAR;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+89;21;CAPNOLINE;CAPNOLINE;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg
+90;21;ETCO2;ETCO2;;;;1;DRAGER;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg

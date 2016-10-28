@@ -86,6 +86,8 @@
         left: 15px;
         clear: none; } }
   #footer #newsletter_block_left .newsletter-input {
-    max-width: 300px !important; }
+    max-width: 300px !important;
+    border:#48c0bc !important;
+  }
 
 /*# sourceMappingURL=blocknewsletter.css.map */

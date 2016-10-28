@@ -187,7 +187,7 @@ class BlockCategories extends Module
 		$this->setLastVisitedCategory();
 		$phpself = $this->context->controller->php_self;
 		$current_allowed_controllers = array('category');
-
+		/*Se deshabilita para mostrar en todo momento todas las categorías disponibles en la página
 		if ($phpself != null && in_array($phpself, $current_allowed_controllers) && Configuration::get('BLOCK_CATEG_ROOT_CATEGORY') && isset($this->context->cookie->last_visited_category) && $this->context->cookie->last_visited_category)
 		{
 			$category = new Category($this->context->cookie->last_visited_category, $this->context->language->id);
@@ -198,6 +198,9 @@ class BlockCategories extends Module
 		}
 		else
 			$category = new Category((int)Configuration::get('PS_HOME_CATEGORY'), $this->context->language->id);
+		*/
+
+		$category = new Category((int)Configuration::get('PS_HOME_CATEGORY'), $this->context->language->id);
 
 		$cacheId = $this->getCacheId($category ? $category->id : null);
 
@@ -241,9 +244,11 @@ class BlockCategories extends Module
 			if ((Tools::getValue('id_product') || Tools::getValue('id_category')) && isset($this->context->cookie->last_visited_category) && $this->context->cookie->last_visited_category)
 			{
 				$category = new Category($this->context->cookie->last_visited_category, $this->context->language->id);
-				if (Validate::isLoadedObject($category))
-					$this->smarty->assign(array('currentCategory' => $category, 'currentCategoryId' => $category->id));
+				if (Validate::isLoadedObject($category)){
+					//$this->smarty->assign(array('currentCategory' => $category, 'currentCategoryId' => $category->id));
+				}
 			}
+			
 
 			$this->smarty->assign('isDhtml', Configuration::get('BLOCK_CATEG_DHTML'));
 			if (file_exists(_PS_THEME_DIR_.'modules/blockcategories/blockcategories.tpl'))

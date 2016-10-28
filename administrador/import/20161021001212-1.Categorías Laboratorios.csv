@@ -1,0 +1,11 @@
+IdPropio;Id Cat Padre;Nombre Laboratorio;Descripcion;Meta Titulo;Meta descripción;Meta palabras clave;Activo;Imagen
+12;2;BD;LABORATORIOS BD “BECTON DICKINSON DE MEXICO”;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-Bd.jpg
+13;2;FENWAL;FENWAL;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-Fresenius.png
+14;2;MCD LAB;MCD LAB;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-MCDLAB.png
+15;2;SENSIMEDICAL;SENSIMEDICAL;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-SensiMedical.png
+16;2;INNOVARE;INNOVARE;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-innovare.png
+17;2;MATCUR;MATCUR;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-Mactur.png
+18;2;UCIN MEDICA;UCIN MEDICA;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-Ucin-Medica.png
+19;2;ALBY;ALBY;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-Alby.png
+20;2;LAFON;LAFON;;;;1;http://localhost/consorcioHospitalario/img/recursos/Headerlafon.png
+21;2;DRAGER;DRAGER;;;;1;http://localhost/consorcioHospitalario/img/recursos/Header-Drager.jpg

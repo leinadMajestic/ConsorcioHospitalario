@@ -28,7 +28,9 @@
     padding: 11px 0 0 0; }
   #order-opc ul.bullet {
     line-height: 22px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px; 
+    color:#ffcf32;
+  }
   #order-opc .date-select {
     padding-bottom: 10px; }
   #order-opc .opc-add-save {

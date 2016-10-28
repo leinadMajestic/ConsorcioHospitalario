@@ -50,39 +50,48 @@
 							<img src="{$link->getCatImageLink($category->link_rewrite, $category->id_image, 'category_default')|escape:'html':'UTF-8'}" alt="{$category->name|escape:'html':'UTF-8'}"/>
 						{/if}
                      </div> 
-                  {/if}
+                {/if}
             </div>
 		{/if}
-		<h1 class="page-heading{if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products} product-listing{/if}"><span class="cat-name">{$category->name|escape:'html':'UTF-8'}{if isset($categoryNameComplement)}&nbsp;{$categoryNameComplement|escape:'html':'UTF-8'}{/if}</span>{include file="$tpl_dir./category-count.tpl"}</h1>
-		{if isset($subcategories)}
-        {if (isset($display_subcategories) && $display_subcategories eq 1) || !isset($display_subcategories) }
-		<!-- Subcategories -->
-		<div id="subcategories">
-			<p class="subcategory-heading">{l s='Subcategories'}</p>
-			<div class="out_sub">
-				<ul class="clearfix">
-				{foreach from=$subcategories item=subcategory}
-					<li>
-						<div class="subcategory-image">
-							<a href="{$link->getCategoryLink($subcategory.id_category, $subcategory.link_rewrite)|escape:'html':'UTF-8'}" title="{$subcategory.name|escape:'html':'UTF-8'}" class="img">
-							{if $subcategory.id_image|intval > 0}
-								<img class="replace-2x" src="{$img_cat_dir}{$subcategory.id_category|intval}_thumb.jpg" alt="{$subcategory.name|escape:'html':'UTF-8'}" />
-							{else}
-								<img class="replace-2x" src="{$img_cat_dir}{$lang_iso}-default-medium_default.jpg" alt="" />
-							{/if}
-						</a>
-						</div>
-						<h5><a class="subcategory-name" href="{$link->getCategoryLink($subcategory.id_category, $subcategory.link_rewrite)|escape:'html':'UTF-8'}">{$subcategory.name|truncate:25:'...'|escape:'html':'UTF-8'}</a></h5>
-						{if $subcategory.description}
-							<div class="cat_desc">{$subcategory.description}</div>
-						{/if}
-					</li>
-				{/foreach}
-				</ul>
+		<div class="col-xs-12 col-sm-3">
+			<div id="left_column" class="column col-xs-12 col-sm-{$col_sm|intval} col-md-{$left_column_size|intval}">
+				{$HOOK_LEFT_COLUMN}
 			</div>
+						
 		</div>
-        {/if}
-		{/if}
+		<div class="col-xs-12 col-sm-9">
+			<h1 class="page-heading{if (isset($subcategories) && !$products) || (isset($subcategories) && $products) || !isset($subcategories) && $products} product-listing{/if}"><span class="cat-name">{$category->name|escape:'html':'UTF-8'}{if isset($categoryNameComplement)}&nbsp;{$categoryNameComplement|escape:'html':'UTF-8'}{/if}</span>{include file="$tpl_dir./category-count.tpl"}</h1>
+			{if isset($subcategories)}
+		        {if (isset($display_subcategories) && $display_subcategories eq 1) || !isset($display_subcategories) }
+					<!-- Subcategories -->
+					<div id="subcategories">
+						<p class="subcategory-heading">{l s='Subcategories'}</p>
+						<div class="out_sub">
+							<ul class="clearfix">
+							{foreach from=$subcategories item=subcategory}
+								<li>
+									<div class="subcategory-image">
+										<a href="{$link->getCategoryLink($subcategory.id_category, $subcategory.link_rewrite)|escape:'html':'UTF-8'}" title="{$subcategory.name|escape:'html':'UTF-8'}" class="img">
+										{if $subcategory.id_image|intval > 0}
+											<img class="replace-2x" src="{$img_cat_dir}{$subcategory.id_category|intval}_thumb.jpg" alt="{$subcategory.name|escape:'html':'UTF-8'}" />
+										{else}
+											<img class="replace-2x" src="{$img_cat_dir}{$lang_iso}-default-medium_default.jpg" alt="" />
+										{/if}
+									</a>
+									</div>
+									<h5><a class="subcategory-name" href="{$link->getCategoryLink($subcategory.id_category, $subcategory.link_rewrite)|escape:'html':'UTF-8'}">{$subcategory.name|truncate:25:'...'|escape:'html':'UTF-8'}</a></h5>
+									{if $subcategory.description}
+										<div class="cat_desc">{$subcategory.description}</div>
+									{/if}
+								</li>
+							{/foreach}
+							</ul>
+						</div>
+					</div>
+		        {/if}
+			{/if}
+		</div>
+		<div class="col-xs-12 col-sm-9">
 		{if $products}
 			<div class="content_sortPagiBar clearfix">
             	<div class="sortPagiBar clearfix">
@@ -97,6 +106,7 @@
 				</div>
 			</div>
 		{/if}
+		</div>
 	{elseif $category->id}
 		<p class="alert alert-warning">{l s='This category is currently unavailable.'}</p>
 	{/if}

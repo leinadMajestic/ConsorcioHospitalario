@@ -42,7 +42,8 @@
 					<a href="{$menu.link|escape:'html':'UTF-8'}"><span>{$menu.title|escape:'html':'UTF-8'}</span>{if $menu.subtitle != ''}<span class="menu-subtitle">{$menu.subtitle|escape:'html':'UTF-8'}</span>{/if}</a>
 					{if isset($menu.sub_menu) && count($menu.sub_menu) > 0}
 						<span class="icon-drop-mobile"></span>
-						<div class="wt-sub-menu menu-dropdown col-xs-12 {$menu.width_sub_sm|escape:'html':'UTF-8'} {$menu.width_sub|escape:'html':'UTF-8'}  {$menu.align_sub|escape:'html':'UTF-8'}">
+						<!--<div class="wt-sub-menu menu-dropdown col-xs-12 {$menu.width_sub_sm|escape:'html':'UTF-8'} {$menu.width_sub|escape:'html':'UTF-8'}  {$menu.align_sub|escape:'html':'UTF-8'}">-->
+						<div class="wt-sub-menu menu-dropdown wt-sub-auto">
 							{foreach from=$menu.sub_menu item= menu_row name=menu_row}
 								<div class="wt-menu-row row {$menu_row.class|escape:'html':'UTF-8'}">
 									{if isset($menu_row.list_col) && count($menu_row.list_col) > 0}
